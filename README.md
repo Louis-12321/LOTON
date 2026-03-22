@@ -29,14 +29,16 @@ ________________________________________________________________________________
 - All .py files are inside the MAIN folder
 - Do NOT delete the Assets folder, MAIN folder or any .py files, you can edit them,
 but remember to make a backup or re-download the .py files
-- Please do not break the code, I am not responsible for your version breaking when you
-edit them.
 - Do not republish or claim LOTON as your own project without permission, the source
 code is publicly available for learning and personal modification.
 - Please credit the original author when editing or modding the project.
 - The executable is built directly from the source code in this repository.
+- LOTON has many hard coded positions, so for the best experience, please use a 1920x1080 screen, thanks :D
+______________________________________________________________________________________
+## Modding
 
-
+You are welcome to experiment and modify LOTON.
+If something breaks, simply re-download the project.
 ______________________________________________________________________________________
 CURRENT VERSION: 1.1.0.0 beta
 NEXT VERSION: 1.1.0.0 (In development)
@@ -75,10 +77,15 @@ AUTHORS:
 CONTRIBUTORS:
 - None (Solo project)
 ______________________________________________________________________________________
+## Roadmap
+
+- [ ] Settings application
+- [ ] Theme system
+- [ ] Improved window management
+______________________________________________________________________________________
 ## PREVIEWS
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ad27c9d8-f2e8-4dc8-bdf9-7acdfe9cfb3f" />
 <img width="1886" height="635" alt="image" src="https://github.com/user-attachments/assets/28267267-7e8d-4a73-8c6c-e8cade6d60d1" />
 
-## NOTES:
-LOTON has many hard coded positions, so for the best experience, please use a 1920x1080 screen, thanks :D
+# ENJOY!
