@@ -5,10 +5,10 @@ This project is under active development (WIP).
 ______________________________________________________________________________________
 HOW TO RUN (Executable)
 1. In the LOTON file, open the "Exports" file
-2. In the Exports file, go to and open the "Ver 1.1.0.0" file
-3. Inside you should see the "Dev Notes.txt" and "LOTON [version 1.1.0.0].exe"
+2. In the Exports file, go to and open the "Ver 1.1.0.0 beta" file
+3. Inside you should see the "Dev Notes.txt" and "LOTON [version 1.1.0.0] beta.exe"
 4. Run the .exe file
-(Copy this path and run "LOTON [version 1.1.0.0].exe" if you are too lazy:)
+(Copy this path and run "LOTON [version 1.1.0.0] beta.exe" if you are too lazy:)
 (LOTON\Exports\Ver 1.1.0.0 beta)
 
 ______________________________________________________________________________________
