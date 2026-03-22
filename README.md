@@ -1,7 +1,10 @@
-LOTON
+# LOTON OS
 
-LOTON is a desktop application made in Python.
-This project is under active development (WIP).
+LOTON is a simulated desktop operating system built entirely in Python.
+It recreates a desktop-style environment with built-in apps, a start menu,
+and a custom UI — all running as a single application.
+
+⚠️ Work in progress (WIP)
 ______________________________________________________________________________________
 HOW TO RUN (Executable)
 1. In the LOTON file, open the "Exports" file
