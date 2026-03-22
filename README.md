@@ -6,7 +6,7 @@ and a custom UI — all running as a single application.
 
 ⚠️ Work in progress (WIP)
 ______________________________________________________________________________________
-##HOW TO RUN (Executable)
+## HOW TO RUN (Executable)
 1. In the LOTON file, open the "Exports" file
 2. In the Exports file, go to and open the "Ver 1.1.0.0 beta" file
 3. Inside you should see the "Dev Notes.txt" and "LOTON [version 1.1.0.0] beta.exe"
