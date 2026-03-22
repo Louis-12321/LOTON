@@ -1,0 +1,42 @@
+CHANGELOG - LOTON
+All notable changes to this project will be documented here.
+
+______________________________________________________________________________________
+
+version 1.1.0.0-beta
+Status: Released
+
+Features:
+
+- Added desktop-style UI Interface instead of old Command Prompt style UI
+- Added assets to use in the Interface
+- Added Start Menu
+- Added apps in this order:
+  + LOTON Calculator
+  + LOTON Notepad
+  + LOTON Command Prompt
+  + LOTON File Explorer
+  + LOTON Login
+- Improved internal logic and project structure
+- Transitioned from CMD-only project to a simulated OS environment
+
+Total amount of code lines:
+1688 lines
+
+______________________________________________________________________________________
+
+version 1.0.0.0
+Status: Released
+
+Features:
+
+- Added CMD type UI
+- Added basic CMD logic
+- Initial project creation
+
+______________________________________________________________________________________
+Notes:
+- Version numbers follow a Major.Minor.Patch.Build format
+
+- Future updates will expand functionality, polish existing systems, and possibly
+lead to reworks on already existing features

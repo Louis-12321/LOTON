@@ -1,0 +1,2 @@
+This version is currrenly in beta, so if you get any bugs or want to send a suggestion, please do it, you're welcome! :D
+The project might lag since it's not optimized yet
