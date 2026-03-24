@@ -12,7 +12,7 @@ ________________________________________________________________________________
 3. Inside you should see the "Dev Notes.txt" and "LOTON [version 1.1.0.0] beta.exe"
 4. Run the .exe file
 (Copy this path and run "LOTON [version 1.1.0.0] beta.exe" if you are too lazy:)
-(LOTON\Exports\Ver 1.1.0.0 beta)
+(Exports\Ver 1.1.0.0 beta)
 
 ______________________________________________________________________________________
 ## FILE STRUCTURE
@@ -82,6 +82,8 @@ ________________________________________________________________________________
 - [ ] Settings application
 - [ ] Theme system
 - [ ] Improved window management
+- [ ] Better GUI and assets
+- [ ] Better management
 ______________________________________________________________________________________
 ## PREVIEWS
 
