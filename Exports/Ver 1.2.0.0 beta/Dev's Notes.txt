@@ -1,0 +1,14 @@
+The current File Explorer only has 3 features:
+1. Reading files
+2. Navigating Files
+3. History backwards/forwards
+
+The next update will add most of the File Explorer's functions
+
+
+The Login's username and password is:
+username: ADMIN
+password: 123456789
+NOTE: It's already typed into the Login Screen for your convenience, if you forget, use the Guest Mode
+
+ENJOY!
