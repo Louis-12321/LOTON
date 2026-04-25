@@ -9,6 +9,7 @@ from PySide6.QtWidgets import (
 from path import asset_path
 from PySide6.QtCore import Qt, QEvent, QTimer
 from PySide6.QtGui import QPainterPath, QPixmap
+import Login_screen_userpass
 import sys
 import random
 
@@ -22,6 +23,7 @@ class Login(QWidget):
         self._spinner_frames = ["│", "/", "─", "\\"]
         self._spinner_index = 0
         self._pending_action = None
+        self._authenticated_user = None
 
         # Window setup
         self.setWindowTitle("LOTON Login")
@@ -377,7 +379,10 @@ class Login(QWidget):
         username = self.username_field.text().strip()
         password = self.password_field.text()
 
-        if username == "ADMIN" and password == "123456789":
+        user = Login_screen_userpass.authenticate_user(username, password)
+
+        if user:
+            self._authenticated_user = user
             self.login_success()
             self.loginbutton.hide()
             self.guestbutton.hide()
@@ -386,15 +391,20 @@ class Login(QWidget):
             self.password_field.hide()
             self.bootloton.show()
         else:
+            self._authenticated_user = None
             QMessageBox.warning(
                 self,
                 "Login Failed",
-                "Invalid username or password.\nUsername: {0}\nPassword: 123456789".format(username)
+                "Invalid username or password."
             )
 
         self.stop_loading_feedback()
 
     def handle_guest_mode(self):
+        self._authenticated_user = {
+            "username": "Guest",
+            "DisplayName": "Guest",
+        }
         QMessageBox.information(
             self,
             "Guest Mode",
@@ -416,13 +426,19 @@ class Login(QWidget):
 
 
     def login_success(self):
+        display_name = (
+            self._authenticated_user.get("DisplayName")
+            if self._authenticated_user
+            else self.username_field.text().strip()
+        )
+
         QMessageBox.information(
             self,
             "Login Successful",
-            "Welcome to LOTON OS."
+            f"Welcome to LOTON OS, {display_name}."
         )
 
-        self.welcomemessage.setText(f"Welcome, {self.username_field.text()}")
+        self.welcomemessage.setText(f"Welcome, {display_name}")
 
         # Hide login UI
         self.loginbutton.hide()
