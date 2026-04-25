@@ -2,88 +2,105 @@
 
 LOTON is a simulated desktop operating system built entirely in Python.
 It recreates a desktop-style environment with built-in apps, a start menu,
-and a custom UI — all running as a single application.
+and a custom UI, all running as a single application.
 
-⚠️ Work in progress (WIP)
-______________________________________________________________________________________
+WARNING: Work in progress (WIP)
+________________________________________________________________________________________________________
 ## HOW TO RUN (Executable)
-1. In the LOTON file, open the "Exports" file
-2. In the Exports file, go to and open the "Ver 1.1.0.0 beta" file
-3. Inside you should see the "Dev Notes.txt" and "LOTON [version 1.1.0.0] beta.exe"
-4. Run the .exe file
-(Copy this path and run "LOTON [version 1.1.0.0] beta.exe" if you are too lazy:)
-(Exports\Ver 1.1.0.0 beta)
+1. In the LOTON folder, open the `Exports` folder
+2. In `Exports`, open the `Ver 1.2.0.0 beta` folder
+3. Inside you should see `Dev's notes.txt` and `LOTON [version 1.2.0.0].exe`
+4. Run the `.exe` file
 
-______________________________________________________________________________________
+Copy this path and run `LOTON [version 1.2.0.0].exe` if you are too lazy:
+`Exports\Ver 1.2.0.0 beta`
+
+________________________________________________________________________________________________________
 ## FILE STRUCTURE
-- MAIN\ -> main source code (.py files)
-- Assets\ -> all Assets (as .png with original Adobe Illustator files)
-- Exports\ -> all Exporting paths (used for exporting and testing)
-- README.txt -> You're reading it right now
-- CHANGELOG.txt -> A changelog on what has been added/deleted/fixed
-- MIT LICENSE.txt -> A license that protects LOTON from being stolen
+- `MAIN\` -> main source code (`.py` files)
+- `Assets\` -> all assets (mostly `.png` files with original Adobe Illustrator files)
+- `Exports\` -> exporting and testing builds
+- `Archive\` -> unused or old files that may still be kept temporarily
+- `.vscode\` -> Visual Studio Code project files
+- `README.md` -> you're reading it right now
+- `CHANGELOG.md` -> a changelog of what has been added, changed, or fixed
+- `LICENSE` / MIT license files -> license information for LOTON
 
-______________________________________________________________________________________
+________________________________________________________________________________________________________
 ## NOTES
 - Python 3.10+ recommended for modding/editing
-- All .py files are inside the MAIN folder
-- Do NOT delete the Assets folder, MAIN folder or any .py files, you can edit them,
-but remember to make a backup or re-download the .py files
-- Do not republish or claim LOTON as your own project without permission, the source
-code is publicly available for learning and personal modification.
-- Please credit the original author when editing or modding the project.
-- The executable is built directly from the source code in this repository.
-- LOTON has many hard coded positions, so for the best experience, please use a 1920x1080 screen, thanks :D
-______________________________________________________________________________________
+- All `.py` files are inside the `MAIN` folder
+- Do NOT delete the `Assets` folder, `MAIN` folder, or core `.py` files. You can edit them, but make a backup first
+- Do not republish or claim LOTON as your own project without permission. The source code is publicly available for learning and personal modification
+- Please credit the original author when editing or modding the project
+- The executable is built directly from the source code in this repository
+- LOTON still uses many hard-coded positions, so for the best experience, use a `1920x1080` display
+- Current login credentials in this build are hard coded:
+- Username: `ADMIN`
+- Password: `123456789`
+
+________________________________________________________________________________________________________
 ## Modding
 
 You are welcome to experiment and modify LOTON.
-If something breaks, simply re-download the project.
-______________________________________________________________________________________
-CURRENT VERSION: 1.1.0.0 beta
-NEXT VERSION: 1.1.0.0 (In development)
-RELEASE DATE: Nope
+If something breaks, simply re-download the project or restore your backup.
 
-______________________________________________________________________________________
+CURRENT VERSION: 1.2.0.0 beta
+NEXT VERSION: 1.2.0.0
+RELEASE DATE: Released
+
+________________________________________________________________________________________________________
 ## CURRENT FEATURES
-(1.1.0.0)
+(1.2.0.0 beta)
 - Desktop-style UI
-
 - Built-in tools containing:
   + Calculator
   + Notepad
   + Start Menu
   + Command Prompt
   + File Explorer
-
 - Asset-based interface
-______________________________________________________________________________________
+- Boot sequence additions:
+  + Boot screen
+  + Login screen
+  + Login function
+- Work-in-progress File Explorer features:
+  + File reading
+  + Back/forward history
+  + Custom sandboxed `This Device` area to help prevent accidents
+- Improved GUI logic and general internal optimization
+- Compatible with PyInstaller for executable compiling
+
+________________________________________________________________________________________________________
 ## ABOUT
-LOTON is a coding project that used to be just a CMD type project, now it has expanded
-to what it is now, started off as "Loton [version 1.0.0.0]", it has now expanded to 
-what I call a "Fake OS" or "Simulated OS".
-What used to be an idea of making an OS has turned into this, and I really like it :D
-I hope you enjoy :D
+LOTON is a coding project that used to be just a CMD-type project, and now it has expanded
+into what it is today. It started as `Loton [version 1.0.0.0]`, and has grown into what I
+call a "Fake OS" or "Simulated OS".
+
+What used to be an idea of making an OS turned into this project, and I really like how it
+has evolved :D
+I hope you enjoy it :D
 
 - LOTON's sole developer
 
 VERSIONS:
 1.0.0.0
 1.1.0.0 beta
+1.2.0.0 beta
 
 AUTHORS:
-- Louis (Original creator)
+- Louis (Original creator/founder)
 
 CONTRIBUTORS:
 - None (Solo project)
-______________________________________________________________________________________
+________________________________________________________________________________________________________
 ## Roadmap
 
 - [ ] Settings application
 - [ ] Theme system
 - [ ] Improved window management
 - [ ] Better GUI and assets
-- [ ] Better management
+- [ ] Better file management
 ______________________________________________________________________________________
 ## PREVIEWS
 
