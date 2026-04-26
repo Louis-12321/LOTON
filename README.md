@@ -8,12 +8,12 @@ WARNING: Work in progress (WIP)
 ________________________________________________________________________________________________________
 ## HOW TO RUN (Executable)
 1. In the LOTON folder, open the `Exports` folder
-2. In `Exports`, open the `Ver 1.2.0.0 beta` folder
+2. In `Exports`, open the `Ver 1.2.0.0` folder
 3. Inside you should see `Dev's notes.txt` and `LOTON [version 1.2.0.0].exe`
 4. Run the `.exe` file
 
 Copy this path and run `LOTON [version 1.2.0.0].exe` if you are too lazy:
-`Exports\Ver 1.2.0.0 beta`
+`Exports\Ver 1.2.0.0`
 
 ________________________________________________________________________________________________________
 ## FILE STRUCTURE
@@ -51,7 +51,7 @@ RELEASE DATE: Released
 
 ________________________________________________________________________________________________________
 ## CURRENT FEATURES
-(1.2.0.0 beta)
+(1.2.0.0)
 - Desktop-style UI
 - Built-in tools containing:
   + Calculator
@@ -59,15 +59,12 @@ ________________________________________________________________________________
   + Start Menu
   + Command Prompt
   + File Explorer
+  + Account Manager
 - Asset-based interface
 - Boot sequence additions:
   + Boot screen
   + Login screen
   + Login function
-- Work-in-progress File Explorer features:
-  + File reading
-  + Back/forward history
-  + Custom sandboxed `This Device` area to help prevent accidents
 - Improved GUI logic and general internal optimization
 - Compatible with PyInstaller for executable compiling
 
@@ -87,6 +84,7 @@ VERSIONS:
 1.0.0.0
 1.1.0.0 beta
 1.2.0.0 beta
+1.2.0.0
 
 AUTHORS:
 - Louis (Original creator/founder)
