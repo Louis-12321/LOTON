@@ -1,12 +1,117 @@
-CHANGELOG - LOTON
-All notable changes to this project will be documented here.
+# CHANGELOG - LOTON
+## All notable changes to this project will be documented here.
 
 ______________________________________________________________________________________
+# version 1.3.5.5
+## Status: Released
 
-version 1.1.0.0-beta
-Status: Released
+### Features:
 
-Features:
+- Added a dark theme to LOTON
+  + All assets switch color
+
+- Added clock to LOTON
+  + Shows real time (Proper timezone support implemented)
+
+Total amount of code lines:
+6394 lines
+
+Nonblank, non-comment lines: 4821 lines
+
+# version 1.3.5.0
+## Status: Released
+
+### Features:
+
+- Remade the Settings app
+  + Added Personalisation Page | Allows changing the background and User Profile
+  + Added About Page | Introduction to LOTON
+  + Added Accounts Page | Account Management is through 
+  + Added Appearance Page
+
+Total amount of code lines:
+5810 lines
+
+Nonblank, non-comment lines: 4473 lines
+
+
+# version 1.3.0.0
+## Status: Released
+
+### Features:
+
+- Fixed:
+  + Fixed resizing issues on File Explorer
+  + Fixed users.json not updating
+
+- Added:
+  + Saving files to Notepad (through the Notepad app)
+  + Opening files to Notepad (through the File Explorer in This Device\Documents\Saved Files)
+  + Search bar to start menu
+  + Settings menu (WIP, only has changing themes, which changes the app's colors)
+  + Improved start menu (User image, click out,...)
+
+- LOTON now has contributors
+
+Total amount of code lines:
+5113 lines
+
+Nonblank, non-comment lines: 3697 lines
+______________________________________________________________________________________
+
+# version 1.2.0.0
+## Status: Released
+
+### Features:
+
+- Updated File Explorer to fully work
+  + Renaming
+  + Copying
+  + Pasting
+  + Cutting
+  + Deleting (Delete)
+  + Right click menu
+  
+  + GUI updates
+
+- Updated Login to have actual accounts
+- 3 built-in accounts
+  + ADMIN
+  + Ur.Average.Louis
+  + Guest
+
+- Added Account Manager app for creating and deleting accounts
+
+Total amount of code lines:
+4384 lines
+______________________________________________________________________________________
+
+# version 1.2.0.0-beta
+## Status: Released
+
+### Features:
+
+- Added work-in-progress File Explorer
+  + Currently only has reading files and history backwards/forwards
+  + Custom sandbox "This Device" to prevent accidents
+  
+- Fixed GUI/Logic bugs, optimized code
+
+- Updated login function to be a username and password loging
+  + Login Username and password are hard coded
+  + Login Username and password already typed in
+  + Username: ADMIN
+  + Password: 123456789
+
+- Compatible with PyInstaller (not sponsored) for .exe compiling
+Total amount of code lines:
+3074 lines
+______________________________________________________________________________________
+
+# version 1.1.0.0-beta
+## Status: Released
+
+### Features:
 
 - Added desktop-style UI Interface instead of old Command Prompt style UI
 - Added assets to use in the Interface
@@ -25,12 +130,12 @@ Total amount of code lines:
 
 ______________________________________________________________________________________
 
-version 1.0.0.0
-Status: Released
+# version 1.0.0.0
+## Status: Released
 
-Features:
+### Features:
 
-- Added CMD type UI
+- Added CMD like UI
 - Added basic CMD logic
 - Initial project creation
 
@@ -38,5 +143,8 @@ ________________________________________________________________________________
 Notes:
 - Version numbers follow a Major.Minor.Patch.Build format
 
-- Future updates will expand functionality, polish existing systems, and possibly
-lead to reworks on already existing features
+- Future updates will expand functionality, adding new features, polish existing
+systems, and possibly lead to reworks on already existing features
+
+
+______________________________________________________________________________________
