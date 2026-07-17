@@ -8,20 +8,18 @@ WARNING: Work in progress (WIP)
 ________________________________________________________________________________________________________
 ## HOW TO RUN (Executable)
 1. In the LOTON folder, open the `Exports` folder
-2. In `Exports`, open the `Ver 1.2.0.0` folder
-3. Inside you should see `Dev's notes.txt` and `LOTON [version 1.2.0.0].exe`
+2. In `Exports`, open the `Ver 1.3.0.0` folder
+3. Inside you should see `Dev's notes.txt` and `LOTON [version 1.3.5.0].exe`
 4. Run the `.exe` file
 
-Copy this path and run `LOTON [version 1.2.0.0].exe` if you are too lazy:
-`Exports\Ver 1.2.0.0`
+Copy this path and run `LOTON [version 1.3.5.0].exe` if you are too lazy:
+`Exports\Ver 1.3.5.0`
 
 ________________________________________________________________________________________________________
 ## FILE STRUCTURE
 - `MAIN\` -> main source code (`.py` files)
 - `Assets\` -> all assets (mostly `.png` files with original Adobe Illustrator files)
 - `Exports\` -> exporting and testing builds
-- `Archive\` -> unused or old files that may still be kept temporarily
-- `.vscode\` -> Visual Studio Code project files
 - `README.md` -> you're reading it right now
 - `CHANGELOG.md` -> a changelog of what has been added, changed, or fixed
 - `LICENSE` / MIT license files -> license information for LOTON
@@ -29,15 +27,20 @@ ________________________________________________________________________________
 ________________________________________________________________________________________________________
 ## NOTES
 - Python 3.10+ recommended for modding/editing
+
 - All `.py` files are inside the `MAIN` folder
+
 - Do NOT delete the `Assets` folder, `MAIN` folder, or core `.py` files. You can edit them, but make a backup first
+
 - Do not republish or claim LOTON as your own project without permission. The source code is publicly available for learning and personal modification
+
 - Please credit the original author when editing or modding the project
+
 - The executable is built directly from the source code in this repository
+
 - LOTON still uses many hard-coded positions, so for the best experience, use a `1920x1080` display
-- Current login credentials in this build are hard coded:
-- Username: `ADMIN`
-- Password: `123456789`
+
+- Current login credentials are inside the file users.json, to change anything use the account manager
 
 ________________________________________________________________________________________________________
 ## Modding
@@ -45,13 +48,13 @@ ________________________________________________________________________________
 You are welcome to experiment and modify LOTON.
 If something breaks, simply re-download the project or restore your backup.
 
-CURRENT VERSION: 1.2.0.0 beta
-NEXT VERSION: 1.2.0.0
+CURRENT VERSION: 1.3.5.0
+NEXT VERSION: 1.?.?.?
 RELEASE DATE: Released
 
 ________________________________________________________________________________________________________
 ## CURRENT FEATURES
-(1.2.0.0)
+(1.3.5.0)
 - Desktop-style UI
 - Built-in tools containing:
   + Calculator
@@ -60,6 +63,7 @@ ________________________________________________________________________________
   + Command Prompt
   + File Explorer
   + Account Manager
+  + Settings
 - Asset-based interface
 - Boot sequence additions:
   + Boot screen
@@ -78,27 +82,27 @@ What used to be an idea of making an OS turned into this project, and I really l
 has evolved :D
 I hope you enjoy it :D
 
-- LOTON's sole developer
+- LOTON's main developer
 
 VERSIONS:
 1.0.0.0
 1.1.0.0 beta
 1.2.0.0 beta
 1.2.0.0
+1.3.0.0
+1.3.5.0
 
 AUTHORS:
 - Louis (Original creator/founder)
 
 CONTRIBUTORS:
-- None (Solo project)
+- REBIRTH (Idea generator)
+- Keltack/Kelly (Idea generator)
 ________________________________________________________________________________________________________
 ## Roadmap
 
-- [ ] Settings application
-- [ ] Theme system
 - [ ] Improved window management
 - [ ] Better GUI and assets
-- [ ] Better file management
 ______________________________________________________________________________________
 ## PREVIEWS
 
