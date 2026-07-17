@@ -1,0 +1,2 @@
+The current Settings is WIP, so don't expect too much
+The file that is right next to the .exe is for the users for login so do NOT DELETE IT

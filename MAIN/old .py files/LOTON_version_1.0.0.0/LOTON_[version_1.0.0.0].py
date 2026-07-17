@@ -57,13 +57,13 @@ while True:
         typewritter(Text)
         Text= "[Loton 1]"
         typewritter(Text)
-        Text = "Update available: LOTON 1.1.0.0"
+        Text = "Update available: LOTON 1.2.0.0 beta"
         typewritter(Text)
     
     elif action == "/systeminfo":
         Text = "System name: Loton 1"
         typewritter(Text)
-        Text = "Available versions: 1.0.0.0"
+        Text = "Available versions: 1.2.0.0 beta"
         typewritter(Text)
 
     elif action.startswith("/echo"):
@@ -95,7 +95,7 @@ while True:
             typewritter(Text)
 
     elif action == "/user":
-        Text = "Current Username: USER"
+        Text = "Current Username: ADMIN"
         typewritter(Text)
         Text = "If you want to change username, please contact us: "
         typewritter(Text)

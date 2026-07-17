@@ -1,6 +1,6 @@
 # Contributing to LOTON
 
-Thanks for your interest! Here's how you can help:
+Thanks for your interest, here's how you can help:
 
 ## How to contribute
 1. Fork this repository

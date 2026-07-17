@@ -1,0 +1,42 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# PyInstaller output
+build/
+dist/
+*.spec
+
+# VS Code settings
+.vscode/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.bak
+
+# Operating system files
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Test/cache files
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Compiled executables
+*.exe
+
+#Special files
+TODO.md
+tests
+build
+dist
